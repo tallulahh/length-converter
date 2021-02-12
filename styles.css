@@ -1,0 +1,32 @@
+body {
+  background-color: #03011f;
+  font-family: "Source Sans Pro";
+  color: #6cacc5;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80vh;
+  margin-left: 10%;
+}
+
+input {
+  width: 300px;
+  background:rgba(42,50,113, .28);
+  border: 2px solid #6cacc5;
+  color: inherit;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px 10px 10px 0;
+}
